@@ -38,6 +38,8 @@ public class Variables {
         System.out.println(i3 + " " + s1+i4);
         System.out.println(s1 * i4);
 
+        System.out.println((s1+i3) + " space " + (i4*i5));
+
         long l1 = 9999999999999L;
         float f1 = 2.5F;
         double d1 = 9999.44;
