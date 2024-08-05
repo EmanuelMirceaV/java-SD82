@@ -23,8 +23,26 @@ package Inheritance;
 
     For Savings Account, print:
         - "Savings account amount $:" + assigned value
-        - "Savings account amount %:" + assigned value
+        - "Savings account interest %:" + assigned value
     */
 
 public class ExInherit {
+
+    public static void main(String[] args) {
+
+        CreditCard cred = new CreditCard();
+        SavingsAccount save = new SavingsAccount();
+
+        cred.info();
+        System.out.println("Credit card amount $: " + cred.amount);
+        System.out.println("Credit card monthly fee $:" + cred.fee);
+
+        System.out.println();
+
+        save.info();
+        System.out.println("Savings account amount $: " + save.amount);
+        System.out.println("Savings account interest %:" + save.interest);
+
+    }
+
 }
