@@ -1,6 +1,6 @@
 package AbstractInterfaces;
 
-public class PythonC extends SubjectsC{
+public class PythonI implements SubjectsI{
     @Override
     public void courseContent() {
         System.out.println("Python Development");
@@ -11,4 +11,8 @@ public class PythonC extends SubjectsC{
         System.out.println("with PyCharm");
     }
 
+    @Override
+    public void courseDuration(int hours) {
+        System.out.println("Course duration in H: " + hours);
+    }
 }
