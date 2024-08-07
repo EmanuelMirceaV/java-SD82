@@ -21,18 +21,25 @@ public class Trainee {
         this.ID = ID;
     }
     */
+
+    public Trainee (String fullName, String ID){   // Constructor
+        this.fullName = fullName;
+        this.ID = ID;
+    }
+    /*
     public void setFullName(String newFullName){
         fullName = newFullName;
     }
-
+    */
     public String getFullName(){
         return fullName;
     }
 
+    /*
     public void setID(String newID){
         ID = newID;
     }
-
+    */
     public String getID(){
         return ID;
     }
